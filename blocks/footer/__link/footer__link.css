@@ -13,6 +13,11 @@
     margin: 0;
 }
 
+.footer__link:hover {
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
+}
+
 @media screen and  (max-width: 767.5px) {
     .footer__link {
         margin:0;
