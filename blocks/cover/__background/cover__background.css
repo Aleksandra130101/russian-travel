@@ -1,5 +1,4 @@
 .cover__background {
-    border: 1px solid red;
     background: url('../../../images/cover-trains.jpg') no-repeat ;
     background-size: cover;
     position: absolute;
