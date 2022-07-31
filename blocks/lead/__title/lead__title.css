@@ -7,15 +7,18 @@
     text-align: center;
     color: #fff;
     max-width: 720px;
-    min-height: 200px;
     font-weight: 900;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .lead__title {
         margin: 0 14px 16px 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
         max-width: 288px;
-        min-height: 88px;
         font-size: 40px;
         line-height: 44px;
     }
@@ -24,9 +27,5 @@
 @media screen and (max-width: 320px) {
     .lead__title {
         margin-bottom: 16px;
-        max-width: 288px;
-        min-height: 88px;
-        font-size: 40px;
-        line-height: 44px;
     }
 }

@@ -14,7 +14,7 @@
 }
 
 .footer__link:hover {
-    opacity: 0.3;
+    opacity: 80%;
     transition: opacity 0.3s ease;
 }
 
