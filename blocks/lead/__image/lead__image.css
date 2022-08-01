@@ -5,3 +5,16 @@
     margin-bottom: 8px;
     width: 100%;
 }
+
+@media screen and (min-width:768px) and (max-width:1279.5px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+   
+}
+
+@media screen and (max-width:767.5px) {
+    .lead__image {
+        margin-top: 40px;
+    }
+}
