@@ -5,6 +5,7 @@
     font-size: 24px;
     line-height: 28px;
     color: #fff;
+    text-decoration: none;
 }
 
 .header__lang-link:hover {
@@ -12,7 +13,7 @@
     transition: opacity 1s ease;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.5px) {
     .header__lang-link {
         max-width: 22px;
         font-size: 18px;
